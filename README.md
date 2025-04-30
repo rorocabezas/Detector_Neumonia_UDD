@@ -10,7 +10,7 @@
 
 **Para este proyecto, seleccioné uno de los siguientes datasets:** 
 
-## Imágenes de rayos X de pecho para detectar neumonía
+> **Imágenes de rayos X de pecho para detectar neumonía**
 
 # Pasos del Proyecto
 
@@ -37,3 +37,32 @@ La API está desplegada en la nube y es accesible a través de un servicio como 
 
 Preparé una presentación que explica el problema, el proceso de solución, las metodologías utilizadas, gráficas de rendimiento y demostraciones del modelo.
 La presentación está diseñada para ser entendida por personas sin conocimientos previos en ciencia de datos e inteligencia artificial.
+
+# Instrucciones para Ejecutar el Proyecto
+
+1. Clonar el Repositorio:
+ ```
+git clone https://github.com/tu-usuario/tu-repositorio.git
+cd tu-repositorio
+	```
+
+
+2.Instalar Dependencias:
+	```
+pip install -r requirements.txt
+Ejecutar el Notebook de EDA y Entrenamiento:
+	```
+3.Ejecutar el Notebook de EDA y Entrenamiento:
+	```
+jupyter notebook EDA_y_Entrenamiento.ipynb
+	```
+4.Ejecutar la API:
+```
+python app.py
+```
+5.Acceder a la API:
+
+
+La API estará disponible en link de la API (reemplaza con el link real).
+# Contacto
+Si tienes alguna pregunta o comentario, no dudes en contactarme a través de mi perfil de GitHub o mi correo electrónico.
