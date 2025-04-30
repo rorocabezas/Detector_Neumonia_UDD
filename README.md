@@ -37,7 +37,7 @@ La API está en el archivo api_rest.ipynb, al ejecutar este colab se hacen estos
  - Configura Flask
  - Genera endpoint '/predict'
  - Ejecuta la app en Flask
- - Generado enlace de la app por eval_js
+ - Genera enlace de la app por eval_js
 
 # Presentación del Proyecto: :bar_chart:
 
@@ -71,5 +71,6 @@ python app.py
 
 
 La API estará disponible en link de la API (reemplaza con el link real).
+
 # Contacto
-Si tienes alguna pregunta o comentario, no dudes en contactarme a través de mi perfil de GitHub o mi correo electrónico.
+Si tienes alguna pregunta o comentario, no dudes en contactarme a través de [mi perfil de GitHub](https://github.com/rorocabezas) o mi correo electrónico [rorocabezas@gmail.com](mailto:rorocabezas@gmail.com).
