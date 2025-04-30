@@ -8,7 +8,7 @@
  - Consolidar técnicas de limpieza, entrenamiento, graficación y ajuste de modelos de Machine Learning.
  - Desarrollar una API que brinde predicciones basadas en datos enviados.
 
-**Para este proyecto, seleccioné uno de los siguientes datasets:** 
+**Para este proyecto, seleccioné el datasets:** 
 
 > **Imágenes de rayos X de pecho para detectar neumonía**
 
@@ -31,7 +31,13 @@ Realicé ajustes de hiperparámetros y ensambles para mejorar la precisión y di
 ## Desarrollo de la API REST: :gear:
 
 Desarrollé una API REST que permite a los usuarios enviar datos y recibir predicciones del modelo.
-La API está desplegada en la nube y es accesible a través de un servicio como Netlify o Ngrok.
+La API está en el archivo api_rest.ipynb, al ejecutar este colab se hacen estos pasos:
+ - Montar la ruta de google drive
+ - Carga el modelo entrenado "best_mo0del.keras"
+ - Configura Flask
+ - Genera endpoint '/predict'
+ - Ejecuta la app en Flask
+ - Generado enlace de la app por eval_js
 
 # Presentación del Proyecto: :bar_chart:
 
