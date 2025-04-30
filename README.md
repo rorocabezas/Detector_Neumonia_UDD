@@ -41,21 +41,25 @@ La presentación está diseñada para ser entendida por personas sin conocimient
 # Instrucciones para Ejecutar el Proyecto
 
 1. Clonar el Repositorio:
-```
+```python
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
+```
 
 2.Instalar Dependencias:
-```
+```python
 pip install -r requirements.txt
+```
 
 3.Ejecutar el Notebook de EDA y Entrenamiento:
-```
+```python
 jupyter notebook EDA_y_Entrenamiento.ipynb
+```
 
 4.Ejecutar la API:
-```
+```python
 python app.py
+```
 
 5.Acceder a la API:
 
