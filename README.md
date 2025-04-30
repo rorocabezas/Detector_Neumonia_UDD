@@ -3,7 +3,7 @@
 ¡Bienvenido al proyecto final del Bootcamp de Ciencia de Datos e Inteligencia Artificial UDD! Este proyecto representa la culminación de todo lo que has aprendido a lo largo del curso. Aquí pondrás en práctica técnicas avanzadas de limpieza de datos, entrenamiento de modelos, graficación, ajuste de hiperparámetros y desarrollo de APIs.
 
 
-## Objetivos
+## Objetivos :scientist:
  - Aplicar todos los conocimientos adquiridos durante el Bootcamp.
  - Consolidar técnicas de limpieza, entrenamiento, graficación y ajuste de modelos de Machine Learning.
  - Desarrollar una API que brinde predicciones basadas en datos enviados.
