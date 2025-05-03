@@ -33,8 +33,8 @@ Realicé ajustes de hiperparámetros y ensambles para mejorar la precisión y di
 Desarrollé una API REST que permite a los usuarios enviar datos y recibir predicciones del modelo.
 La API está en el archivo api_rest.ipynb, al ejecutar este colab se hacen estos pasos:
  - Montar la ruta de google drive
- - Carga el modelo entrenado "best_mo0del.keras"
- - Configura Flask
+ - Carga el modelo entrenado "best_model.keras"
+ - Configurar Flask
  - Genera endpoint '/predict'
  - Ejecuta la app en Flask
  - Genera enlace de la app por eval_js
