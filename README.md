@@ -68,22 +68,16 @@ git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 ```
 
-### 2. Instala las Dependencias
+### 2. Ejecuta el Notebook de Entrenamiento
 ```bash
-pip install -r requirements.txt
+jupyter notebook EDA_y_Entrenamiento.ipynb
 ```
-
-### 3. Ejecuta el Notebook de Entrenamiento
+### 3. Ejecuta el Notebook de API REST
 ```bash
 jupyter notebook EDA_y_Entrenamiento.ipynb
 ```
 
-### 4. Lanza la API Localmente
-```bash
-python app.py
-```
-
-### 5. Accede a la API
+### 4. Accede a la API
 La API estará disponible en `http://localhost:5000/predict` (o en el enlace generado si estás en Google Colab).
 
 ---
