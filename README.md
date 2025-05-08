@@ -1,76 +1,96 @@
-# Detector_Neumonia_UDD :scientist:
+# 🧠 Detector_Neumonia_UDD
 
-¡Bienvenido al proyecto final del Bootcamp de Ciencia de Datos e Inteligencia Artificial UDD! Este proyecto representa la culminación de todo lo que has aprendido a lo largo del curso. Aquí pondrás en práctica técnicas avanzadas de limpieza de datos, entrenamiento de modelos, graficación, ajuste de hiperparámetros y desarrollo de APIs.
+¡Bienvenido al proyecto final del **Bootcamp de Ciencia de Datos e Inteligencia Artificial UDD**!  
+Este repositorio representa la aplicación práctica de todos los conocimientos adquiridos durante el curso, integrando análisis de datos, entrenamiento de modelos de aprendizaje profundo y desarrollo de una API funcional.
 
+---
 
-## Objetivos  :dart:
- - Aplicar todos los conocimientos adquiridos durante el Bootcamp.
- - Consolidar técnicas de limpieza, entrenamiento, graficación y ajuste de modelos de Machine Learning.
- - Desarrollar una API que brinde predicciones basadas en datos enviados.
+## 🎯 Objetivos del Proyecto
 
-**Para este proyecto, seleccioné el datasets:** 
+- Aplicar técnicas avanzadas de análisis, limpieza y visualización de datos.
+- Entrenar un modelo de Machine Learning (deep learning) para la detección de neumonía a partir de imágenes.
+- Evaluar el rendimiento del modelo mediante métricas y visualizaciones.
+- Desarrollar una **API REST** capaz de recibir imágenes de rayos X y entregar una predicción diagnóstica.
 
-> **Imágenes de rayos X de pecho para detectar neumonía**
+---
 
-# Pasos del Proyecto
+## 📊 Dataset Utilizado
 
-## Análisis Exploratorio y Limpieza de Datos: :chart_with_upwards_trend:
+> **Chest X-Ray Images (Pneumonia)**  
+Conjunto de datos compuesto por radiografías de tórax etiquetadas para identificar la presencia o ausencia de neumonía.  
+Fuente: [Inserta aquí el link del dataset si está disponible públicamente].
 
-Realicé un análisis exploratorio de datos (EDA) para entender la estructura y características del dataset seleccionado.
-Apliqué técnicas de limpieza de datos, incluyendo manejo de valores nulos.
+---
 
-## Entrenamiento del Modelo: :electron:
-Seleccioné y entrené un modelo de Machine Learning, red neuronal adecuado para el problema planteado.
-Generé predicciones de prueba para evaluar el rendimiento inicial del modelo.
+## 🔍 Flujo del Proyecto
 
-## Graficación y Métricas:
+### 1. Análisis Exploratorio y Limpieza de Datos
+- Exploración inicial del conjunto de imágenes.
+- Limpieza y preparación del dataset: detección de inconsistencias, balanceo de clases, normalización, etc.
 
-Creé 2 gráficas y dos métricas de rendimiento para visualizar la precisión y rendimiento del modelo.
-Realicé ajustes de hiperparámetros y ensambles para mejorar la precisión y disminuir la varianza del modelo.
+### 2. Entrenamiento del Modelo
+- Implementación de una red neuronal convolucional (CNN).
+- Generación de predicciones iniciales y evaluación del rendimiento.
+- Ajuste de hiperparámetros y uso de técnicas como ensambles o regularización.
 
-## Desarrollo de la API REST: :gear:
+### 3. Evaluación y Visualización
+- Cálculo de métricas clave: accuracy, precision, recall, F1-score.
+- Visualización mediante curvas ROC, matrices de confusión, etc.
 
-Desarrollé una API REST que permite a los usuarios enviar datos y recibir predicciones del modelo.
-La API está en el archivo api_rest.ipynb, al ejecutar este colab se hacen estos pasos:
- - Montar la ruta de google drive
- - Carga el modelo entrenado "best_model.keras"
- - Configurar Flask
- - Genera endpoint '/predict'
- - Ejecuta la app en Flask
- - Genera enlace de la app por eval_js
+### 4. Desarrollo de la API REST
+- Creación de una API con Flask.
+- Integración del modelo entrenado para recibir imágenes y retornar una predicción.
+- El notebook `api_rest.ipynb` realiza los siguientes pasos:
+  - Monta Google Drive.
+  - Carga el modelo (`best_model.keras`).
+  - Configura y lanza un servidor Flask con el endpoint `/predict`.
+  - Utiliza `eval_js` para exponer la API en entorno colaborativo (Colab).
 
-# Presentación del Proyecto: :bar_chart:
+---
 
-Preparé una presentación que explica el problema, el proceso de solución, las metodologías utilizadas, gráficas de rendimiento y demostraciones del modelo.
-La presentación está diseñada para ser entendida por personas sin conocimientos previos en ciencia de datos e inteligencia artificial.
+## 🖥️ Presentación Final
 
-# Instrucciones para Ejecutar el Proyecto
+La presentación incluye:
+- Introducción al problema de la neumonía infantil.
+- Justificación del uso de imágenes médicas y visión por computador.
+- Detalle del modelo, métricas obtenidas y resultados.
+- Demostración del uso de la API.
 
-1. Clonar el Repositorio:
-```python
+> 🎯 *Diseñada para una audiencia general, sin conocimientos técnicos avanzados.*
+
+---
+
+## ⚙️ Cómo Ejecutar el Proyecto
+
+### 1. Clona el Repositorio
+```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 cd tu-repositorio
 ```
 
-2.Instalar Dependencias:
-```python
+### 2. Instala las Dependencias
+```bash
 pip install -r requirements.txt
 ```
 
-3.Ejecutar el Notebook de EDA y Entrenamiento:
-```python
+### 3. Ejecuta el Notebook de Entrenamiento
+```bash
 jupyter notebook EDA_y_Entrenamiento.ipynb
 ```
 
-4.Ejecutar la API:
-```python
+### 4. Lanza la API Localmente
+```bash
 python app.py
 ```
 
-5.Acceder a la API:
+### 5. Accede a la API
+La API estará disponible en `http://localhost:5000/predict` (o en el enlace generado si estás en Google Colab).
 
+---
 
-La API estará disponible en link de la API (reemplaza con el link real).
+## 📫 Contacto
 
-# Contacto
-Si tienes alguna pregunta o comentario, no dudes en contactarme a través de [mi perfil de GitHub](https://github.com/rorocabezas) o mi correo electrónico [rorocabezas@gmail.com](mailto:rorocabezas@gmail.com).
+¿Dudas o comentarios? No dudes en escribirme:
+
+- GitHub: [@rorocabezas](https://github.com/rorocabezas)
+- Correo: [rorocabezas@gmail.com](mailto:rorocabezas@gmail.com)
