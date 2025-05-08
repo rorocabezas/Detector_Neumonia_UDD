@@ -70,15 +70,16 @@ cd tu-repositorio
 
 ### 2. Ejecuta el Notebook de Entrenamiento
 ```bash
-jupyter notebook EDA_y_Entrenamiento.ipynb
+jupyter notebook UDD_Proyecto M7_Rodrigo Cabezas.ipynb
 ```
 ### 3. Ejecuta el Notebook de API REST
 ```bash
-jupyter notebook EDA_y_Entrenamiento.ipynb
+jupyter notebook api_rest.ipynb
 ```
 
 ### 4. Accede a la API
-La API estará disponible en `http://localhost:5000/predict` (o en el enlace generado si estás en Google Colab).
+La API estará disponible en:
+Accede a la aplicación en esta url: https://5000-m-s-1erowwuj4mq80-a.asia-east1-0.prod.colab.dev  
 
 ---
 
