@@ -1,6 +1,6 @@
 # 🧠 Detector_Neumonia_UDD
 
-¡Bienvenido al proyecto final del **Bootcamp de Ciencia de Datos e Inteligencia Artificial UDD**!  
+¡Bienvenido al proyecto final del **Bootcamp de Ciencia de Datos e Inteligencia Artificial UDD**!
 Este repositorio representa la aplicación práctica de todos los conocimientos adquiridos durante el curso, integrando análisis de datos, entrenamiento de modelos de aprendizaje profundo y desarrollo de una API funcional.
 
 ---
@@ -16,9 +16,9 @@ Este repositorio representa la aplicación práctica de todos los conocimientos 
 
 ## 📊 Dataset Utilizado
 
-> **Chest X-Ray Images (Pneumonia)**  
-Conjunto de datos compuesto por radiografías de tórax etiquetadas para identificar la presencia o ausencia de neumonía.  
-Fuente: [Inserta aquí el link del dataset si está disponible públicamente].
+> **Chest X-Ray Images (Pneumonia)**
+Conjunto de datos compuesto por radiografías de tórax etiquetadas para identificar la presencia o ausencia de neumonía.
+Fuente: [kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
 
 ---
 
@@ -64,7 +64,7 @@ La presentación incluye:
 
 ### 1. Clona el Repositorio
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
+git clone https://github.com/rorocabezas/Detector_Neumonia_UDD.git
 cd tu-repositorio
 ```
 
